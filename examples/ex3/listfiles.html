@@ -1,0 +1,16 @@
+$(cat header)
+
+<h1 style='font-family:Helvetica; text-align:center;'> $(date) </h1>
+
+
+$(for item in ${list[@]}; do
+echo "<h2 style='color: green;'>${item}</h2>"
+done)
+
+<img src='sample.bmp' style='width: 100%;'>
+
+<!-- <p style='white-space: pre-wrap;'>
+    $(query)
+</p> -->
+$(cat footer)
+
