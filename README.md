@@ -10,3 +10,5 @@ then:
 ./kennylive.sh
 ```
 By default kenny listens on 3000 port.
+
+![](kenny.gif)
